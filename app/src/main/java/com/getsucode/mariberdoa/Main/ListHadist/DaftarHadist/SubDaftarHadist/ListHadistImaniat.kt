@@ -14,7 +14,7 @@ import com.getsucode.mariberdoa.Repository.ItemHadistImaniat
 
 class ListHadistImaniat : AppCompatActivity() {
 
-    private val title = "Hadist"
+    private val title = "Hadis"
     private lateinit var rvListHadist: RecyclerView
     private val list = ArrayList<ListModelHadistImaniat>()
 

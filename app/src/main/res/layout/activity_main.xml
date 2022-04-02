@@ -132,7 +132,7 @@
                                 android:textStyle="bold"
                                 android:textColor="#000"
                                 android:fontFamily="@font/century1"
-                                android:text="Hadist" />
+                                android:text="Hadis" />
 
                         </LinearLayout>
 

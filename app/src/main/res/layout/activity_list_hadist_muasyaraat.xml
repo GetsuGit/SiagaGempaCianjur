@@ -40,7 +40,7 @@
                     android:id="@+id/JudulHadistMuasyaraat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hadits Muasyaraat "
+                    android:text="Hadis Muasyaraat "
                     android:textColor="@color/white"
                     android:textSize="30dp"
                     android:fontFamily="@font/century1"

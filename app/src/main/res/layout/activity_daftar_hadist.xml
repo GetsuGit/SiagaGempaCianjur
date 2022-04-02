@@ -43,7 +43,7 @@
                     android:id="@+id/JudulHadistImaniat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Daftar Hadist"
+                    android:text="Daftar Hadis"
                     android:textColor="@color/white"
                     android:textSize="30dp"
                     android:fontFamily="@font/century1"
@@ -55,7 +55,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="15dp"
-                    android:text="Hadis secara istilah berarti segala perkataan (sabda), perbuatan, ketetapan dan persetujuan dari Nabi Muhammad SAW yang dijadikan landasan syariat Islam."
+                    android:text="@string/PengertianHadis"
                     android:textColor="@color/white"
                     android:textSize="13dp"
                     android:fontFamily="@font/century1"
@@ -108,7 +108,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="5dp"
-                        android:text="Hadits Imaniat"
+                        android:text="Hadis Imaniat"
                         android:textColor="#000"
                         android:textSize="13dp"
                         android:textStyle="bold" />
@@ -145,7 +145,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="5dp"
-                        android:text="Hadits Ibaadaat"
+                        android:text="Hadis Ibaadaat"
                         android:textColor="#000"
                         android:textSize="13dp"
                         android:textStyle="bold" />
@@ -182,7 +182,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="5dp"
-                        android:text="Hadits Muamalaat"
+                        android:text="Hadis Muamalaat"
                         android:textColor="#000"
                         android:textSize="13dp"
                         android:textStyle="bold" />
@@ -219,7 +219,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="5dp"
-                        android:text="Hadits Muasyaraat"
+                        android:text="Hadis Muasyaraat"
                         android:textColor="#000"
                         android:textSize="13dp"
                         android:textStyle="bold" />
@@ -256,7 +256,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="5dp"
-                        android:text="Hadits Akhlaqiyaat"
+                        android:text="Hadis Akhlaqiyaat"
                         android:textColor="#000"
                         android:textSize="13dp"
                         android:textStyle="bold" />

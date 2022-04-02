@@ -11,7 +11,7 @@ import com.getsucode.mariberdoa.R
 
 class DaftarHadist : AppCompatActivity() {
 
-    private val title = "Hadist"
+    private val title = "Hadis"
     lateinit var cd_HadistImaniat: CardView
     lateinit var cd_HadistIbaadaat: CardView
     lateinit var cd_HadistMualamaat: CardView
