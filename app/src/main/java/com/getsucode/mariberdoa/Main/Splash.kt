@@ -13,7 +13,7 @@ class Splash : AppCompatActivity() {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT); //Mode Portrait
         setContentView(R.layout.activity_splash)
 
-        object : CountDownTimer(3000, 1000) {
+        object : CountDownTimer(1000, 800) {
             override fun onFinish() {
                 val intent = Intent(baseContext, Menu::class.java)
                 startActivity(intent)

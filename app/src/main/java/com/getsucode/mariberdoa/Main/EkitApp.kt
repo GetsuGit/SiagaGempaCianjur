@@ -10,9 +10,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.getsucode.mariberdoa.R
 
-class QuitApp : AppCompatActivity() {
+class EkitApp : AppCompatActivity() {
 
-    private val title = "Quite"
+    private val title = "Exit"
     lateinit var back: ImageView
     lateinit var quite: ImageView
 

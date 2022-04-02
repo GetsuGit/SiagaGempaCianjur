@@ -12,6 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MariBerdoa">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5301776565080135~6894913937" />
+
         <activity
             android:name=".ToolbarMenu.TermofServiceDetail"
             android:exported="false" />
@@ -48,11 +53,6 @@
         <activity
             android:name=".Main.ListHadist.DaftarHadist.SubDaftarHadist.ListHadistIbaadaat"
             android:exported="false" />
-
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5301776565080135~6894913937" />
-
         <activity
             android:name=".Main.ListDoa.DetailDoa.DetailDoa"
             android:exported="false" />
@@ -60,10 +60,7 @@
             android:name=".Main.ListDoa.ListDoa"
             android:exported="false" />
         <activity
-            android:name=".Main.Menu"
-            android:exported="false" />
-        <activity
-            android:name=".Main.QuitApp"
+            android:name=".Main.EkitApp"
             android:exported="false" />
         <activity
             android:name=".Main.Splash"
@@ -75,6 +72,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Main.Menu"
+            android:exported="false" />
     </application>
 
 </manifest>
