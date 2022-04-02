@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.getsucode.mariberdoa">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MariBerdoa">
+        <activity
+            android:name=".ToolbarMenu.TermofServiceDetail"
+            android:exported="false" />
+        <activity
+            android:name=".ToolbarMenu.PrivacyPolicyDetail"
+            android:exported="false" />
+        <activity
+            android:name=".ToolbarMenu.Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".ToolbarMenu.About"
+            android:exported="false" />
+        <activity
+            android:name=".Main.ListQuotesMuslim.DetailQuotesMuslim.DetailQuotesMuslim"
+            android:exported="false" />
+        <activity
+            android:name=".Main.ListQuotesMuslim.DaftarQuotesMuslim"
+            android:exported="false" />
+        <activity
+            android:name=".Main.ListHadist.DaftarHadist.SubDaftarHadist.ListHadistAkhlaqiyaat"
+            android:exported="false" />
+        <activity
+            android:name=".Main.ListHadist.DaftarHadist.SubDaftarHadist.ListHadistMuasyaraat"
+            android:exported="false" />
+        <activity
+            android:name=".Main.ListHadist.DaftarHadist.SubDaftarHadist.ListHadistMuamalaat"
+            android:exported="false" />
+        <activity
+            android:name=".Main.ListHadist.DaftarHadist.DaftarHadist"
+            android:exported="false" />
+        <activity
+            android:name=".Main.ListHadist.DaftarHadist.SubDaftarHadist.ListHadistImaniat"
+            android:exported="false" />
+        <activity
+            android:name=".Main.ListHadist.DaftarHadist.SubDaftarHadist.ListHadistIbaadaat"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5301776565080135~6894913937" />
+
+        <activity
+            android:name=".Main.ListDoa.DetailDoa.DetailDoa"
+            android:exported="false" />
+        <activity
+            android:name=".Main.ListDoa.ListDoa"
+            android:exported="false" />
+        <activity
+            android:name=".Main.Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Main.QuitApp"
+            android:exported="false" />
+        <activity
+            android:name=".Main.Splash"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

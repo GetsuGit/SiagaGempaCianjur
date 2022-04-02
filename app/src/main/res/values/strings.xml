@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mari Berdoa</string>
+    <string name="Unit_Iklan">ca-app-pub-5301776565080135/7518618515</string>
+    <string name="Unit_App_ID">ca-app-pub-5301776565080135~6894913937</string>
+    <string name="Hadist_Ibaadaat">Dalam hadis ini tertulis tentang ibadah sunnah yang pernah dilakukan oleh Rasulullah SAW.</string>
+    <string name="HadistImaniat">Hadits Imaniat adalah hadis yang berisikan tentang keimanan atau kepercayaan kepada Allah SWT.</string>
+    <string name="HadistMualamaat">Hadis ini mengajarkan tentang aturan dalam berkegiatan setiap harinya.</string>
+    <string name="HadistMuasyaraat">Hadits Muasyaraat yang dapat menjadi pedoman kita saat menjalani hidup.</string>
+    <string name="HadistAkhlaqiyaat">Hadis ini mengatur tentang akhlak atau bagaimana cara kita seharusnya berperilaku sehari-hari.</string>
+    <string name="Tentang"><p>Mari Berdoa </p>adalah aplikasi alternatif panduan mengenai bacaan doa sehari - hari dan beberapa tambahan bacaan hadist\n\ndoa - doa dan hadist di aplikasi ini di susun sesuai dengan sunnah\n\naplikasi ini saya buat sebagai <i>reminder</i> khususnya bagi saya agar tidak lupa membaca doa dan tetap mengetahui tentang hafalan hadist\n\nsemoga dengan adanya aplikasi ini bisa memberi manfaat kebaikan agar tetap teringat membaca doa disetiap segala aktivitas.</string>
+
+
+</resources>
