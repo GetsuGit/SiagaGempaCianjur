@@ -28,7 +28,7 @@ class ListDoa : AppCompatActivity() {
 
         setActionBarTitle(title)
 
-        rvListDoa= findViewById(R.id.rv_doa)
+        rvListDoa = findViewById(R.id.rv_doa)
         rvListDoa.setHasFixedSize(true)
 
         list.addAll(ItemDoa.listData)
@@ -41,22 +41,22 @@ class ListDoa : AppCompatActivity() {
         val listdoa = ListDoaAdapter(list)
         rvListDoa.adapter = listdoa
 
-        listdoa.setOnItemClickCallback(object: ListDoaAdapter.OnItemClickCallback{
+        listdoa.setOnItemClickCallback(object : ListDoaAdapter.OnItemClickCallback {
             override fun onItemClicked(data: ListModel) {
-               showSelectedListDoa(data)
+                showSelectedListDoa(data)
             }
         })
     }
 
     private fun showSelectedListDoa(listmodel: ListModel) {
 
-            val detailDoa = Intent(this, DetailDoa::class.java )
+        val detailDoa = Intent(this, DetailDoa::class.java)
 
-            detailDoa.putExtra("intent_title",listmodel.title)
-            detailDoa.putExtra("intent_arabic",listmodel.arabic)
-            detailDoa.putExtra("intent_latin",listmodel.latin)
-            detailDoa.putExtra("intent_translation",listmodel.translation)
-            startActivity(detailDoa)
+        detailDoa.putExtra("intent_title", listmodel.title)
+        detailDoa.putExtra("intent_arabic", listmodel.arabic)
+        detailDoa.putExtra("intent_latin", listmodel.latin)
+        detailDoa.putExtra("intent_translation", listmodel.translation)
+        startActivity(detailDoa)
 
         //Toast.makeText(this, "Kamu memilih" + title, Toast.LENGTH_LONG).show()
 

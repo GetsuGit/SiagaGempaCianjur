@@ -82,7 +82,7 @@
                 android:textSize="15dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="250dp"
-                android:text="Privacy Policy"/>
+                android:text="@string/Privacy_Policy"/>
 
             <ImageView
                 android:layout_width="18dp"
@@ -104,7 +104,7 @@
                 android:textSize="15dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="230dp"
-                android:text="Terms of Service"/>
+                android:text="@string/TermOfService"/>
 
             <ImageView
                 android:layout_width="18dp"

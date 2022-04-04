@@ -144,6 +144,7 @@ class Menu : AppCompatActivity() {
 
         Intent(this, EkitApp::class.java).also {
             startActivity(it)
+            finishActivity(1)
         }
     }
 }

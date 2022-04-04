@@ -43,7 +43,7 @@
                     android:id="@+id/JudulHadistImaniat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Daftar Hadis"
+                    android:text="@string/daftar_hadis"
                     android:textColor="@color/white"
                     android:textSize="30dp"
                     android:fontFamily="@font/century1"
@@ -108,7 +108,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="5dp"
-                        android:text="Hadis Imaniat"
+                        android:text="@string/hadis_imaniat"
                         android:textColor="#000"
                         android:textSize="13dp"
                         android:textStyle="bold" />
@@ -145,7 +145,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="5dp"
-                        android:text="Hadis Ibaadaat"
+                        android:text="@string/hadis_ibaadaat"
                         android:textColor="#000"
                         android:textSize="13dp"
                         android:textStyle="bold" />
@@ -182,7 +182,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="5dp"
-                        android:text="Hadis Muamalaat"
+                        android:text="@string/hadis_muamalaat"
                         android:textColor="#000"
                         android:textSize="13dp"
                         android:textStyle="bold" />
@@ -219,7 +219,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="5dp"
-                        android:text="Hadis Muasyaraat"
+                        android:text="@string/hadis_muasyaraat"
                         android:textColor="#000"
                         android:textSize="13dp"
                         android:textStyle="bold" />
@@ -256,7 +256,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="5dp"
-                        android:text="Hadis Akhlaqiyaat"
+                        android:text="@string/hadis_akhlaqiyaat"
                         android:textColor="#000"
                         android:textSize="13dp"
                         android:textStyle="bold" />

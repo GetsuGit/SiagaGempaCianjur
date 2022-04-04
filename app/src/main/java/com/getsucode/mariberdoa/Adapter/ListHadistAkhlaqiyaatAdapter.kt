@@ -15,7 +15,8 @@ class ListHadistAkhlaqiyaatAdapter(private val listHadist: ArrayList<ListModelHa
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val view: View =
-            LayoutInflater.from(parent.context).inflate(R.layout.item_list_hadist_akhlaqiyaat, parent, false)
+            LayoutInflater.from(parent.context)
+                .inflate(R.layout.item_list_hadist_akhlaqiyaat, parent, false)
         return ListViewHolder(view)
     }
 
@@ -42,9 +43,12 @@ class ListHadistAkhlaqiyaatAdapter(private val listHadist: ArrayList<ListModelHa
 
     inner class ListViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
-        var tv_ArabicHadistAkhlaqiyaat: TextView = itemView.findViewById(R.id.tv_ArabicHadistAkhlaqiyaat)
-        var tv_LatinHadistAkhlaqiyaat: TextView = itemView.findViewById(R.id.tv_LatinHadistAkhlaqiyaat)
-        var tv_ArtiHadistAkhlaqiyaat: TextView = itemView.findViewById(R.id.tv_ArtiHadistAkhlaqiyaat)
+        var tv_ArabicHadistAkhlaqiyaat: TextView =
+            itemView.findViewById(R.id.tv_ArabicHadistAkhlaqiyaat)
+        var tv_LatinHadistAkhlaqiyaat: TextView =
+            itemView.findViewById(R.id.tv_LatinHadistAkhlaqiyaat)
+        var tv_ArtiHadistAkhlaqiyaat: TextView =
+            itemView.findViewById(R.id.tv_ArtiHadistAkhlaqiyaat)
 
     }
 

@@ -18,7 +18,8 @@ class ListQuotesMuslimAdapter(private val listDoaDoa: ArrayList<ListQuotesMuslim
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val view: View =
-            LayoutInflater.from(parent.context).inflate(R.layout.item_list_quotesmuslim, parent, false)
+            LayoutInflater.from(parent.context)
+                .inflate(R.layout.item_list_quotesmuslim, parent, false)
         return ListViewHolder(view)
     }
 

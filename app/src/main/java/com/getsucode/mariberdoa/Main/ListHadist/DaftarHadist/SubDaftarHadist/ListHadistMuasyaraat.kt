@@ -24,7 +24,7 @@ class ListHadistMuasyaraat : AppCompatActivity() {
         setContentView(R.layout.activity_list_hadist_muasyaraat)
 
         setActionBarTitle(title)
-        rvListHadist= findViewById(R.id.rv_hadist_muasyaraat)
+        rvListHadist = findViewById(R.id.rv_hadist_muasyaraat)
         rvListHadist.setHasFixedSize(true)
 
         list.addAll(ItemHadistMuasyaraat.listDataHadistMuasyaraat)
@@ -36,7 +36,7 @@ class ListHadistMuasyaraat : AppCompatActivity() {
         val listdoa = ListHadistMuasyaraatAdapter(list)
         rvListHadist.adapter = listdoa
 
-        listdoa.setOnItemClickCallback(object: ListHadistMuasyaraatAdapter.OnItemClickCallback{
+        listdoa.setOnItemClickCallback(object : ListHadistMuasyaraatAdapter.OnItemClickCallback {
             override fun onItemClicked(data: ListModelHadistMuasyaraat) {
                 showSelectedListHadist(data)
             }

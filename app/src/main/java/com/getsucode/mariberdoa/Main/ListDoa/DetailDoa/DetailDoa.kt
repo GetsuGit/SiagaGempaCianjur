@@ -16,9 +16,9 @@ class DetailDoa : AppCompatActivity() {
 
     private val title = "Doa"
     lateinit var tv_detail_JudulDoa: TextView
-    lateinit var tv_detail_Arabic : TextView
-    lateinit var tv_detali_Latin : TextView
-    lateinit var tv_detail_Arti : TextView
+    lateinit var tv_detail_Arabic: TextView
+    lateinit var tv_detali_Latin: TextView
+    lateinit var tv_detail_Arti: TextView
 
     //ads
     lateinit var bannerAdViewDetail: AdView
@@ -37,7 +37,7 @@ class DetailDoa : AppCompatActivity() {
 
     }
 
-    private fun setDetailItemDoa(){
+    private fun setDetailItemDoa() {
 
         tv_detail_JudulDoa = findViewById(R.id.tv_detail_JuduDoa)
         tv_detail_Arabic = findViewById(R.id.tv_detail_Arabic)
@@ -56,7 +56,7 @@ class DetailDoa : AppCompatActivity() {
 
     }
 
-    private fun setAdsDetail(){
+    private fun setAdsDetail() {
 
         MobileAds.initialize(this)
         bannerAdViewDetail = findViewById(R.id.banner_ad_detail)

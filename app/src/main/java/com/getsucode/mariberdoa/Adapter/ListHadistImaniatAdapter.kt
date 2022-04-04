@@ -15,7 +15,8 @@ class ListHadistImaniatAdapter(private val listHadist: ArrayList<ListModelHadist
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val view: View =
-            LayoutInflater.from(parent.context).inflate(R.layout.item_list_hadist_imaniat, parent, false)
+            LayoutInflater.from(parent.context)
+                .inflate(R.layout.item_list_hadist_imaniat, parent, false)
         return ListViewHolder(view)
     }
 

@@ -10,56 +10,56 @@
         android:id="@+id/TitleHadist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <android.support.v7.widget.CardView
             android:layout_width="350dp"
             android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
             android:background="@color/green"
             app:cardCornerRadius="15dp"
-            app:cardElevation="5dp"
-            android:layout_marginBottom="5dp"
-            android:layout_gravity="center_horizontal">
+            app:cardElevation="5dp">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/gambardoa"
-                android:scaleType="centerCrop"/>
+                android:scaleType="centerCrop"
+                android:src="@drawable/gambardoa" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_gravity="center_vertical">
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/JudulHadistIbaadaat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hadis Ibaadaat "
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="@font/century1"
+                    android:text="@string/hadis_ibaadaat"
                     android:textColor="@color/white"
                     android:textSize="30dp"
-                    android:fontFamily="@font/century1"
-                    android:textStyle="bold"
-                    android:layout_marginTop="60dp"
-                    android:layout_gravity="center_horizontal"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/century1"
+                    android:justificationMode="inter_word"
                     android:padding="15dp"
                     android:text="@string/Hadist_Ibaadaat"
                     android:textColor="@color/white"
                     android:textSize="13dp"
-                    android:fontFamily="@font/century1"
-                    android:textStyle="bold"
-                    android:layout_marginTop="8dp"
-                    android:justificationMode="inter_word"
-                    android:layout_gravity="center_horizontal"/>
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
