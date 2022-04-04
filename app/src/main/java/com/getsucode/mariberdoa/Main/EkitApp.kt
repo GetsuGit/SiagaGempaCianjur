@@ -44,6 +44,7 @@ class EkitApp : AppCompatActivity() {
         }
     }
 
+    // onback
     override fun onBackPressed() {
         val builder = AlertDialog.Builder(this)
         builder.setIcon(R.drawable.iconabout)
