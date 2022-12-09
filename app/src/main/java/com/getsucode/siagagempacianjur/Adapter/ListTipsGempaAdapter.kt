@@ -21,10 +21,10 @@ class ListTipsGempaAdapter(private val listTips: ArrayList<ListModel>) :
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val kontenDoa = listTips[position]
+        val konten = listTips[position]
 
-        holder.tvJudul.text = kontenDoa.judulTips
-        holder.tvPenjelasan.text = kontenDoa.penjelasanTips
+        holder.tvJudul.text = konten.judulTips
+        holder.tvPenjelasan.text = konten.penjelasanTips
 
 
         holder.itemView.setOnClickListener {
