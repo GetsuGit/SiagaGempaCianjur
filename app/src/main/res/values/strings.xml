@@ -1,23 +1,43 @@
 <resources>
-    <string name="app_name">Mari Berdoa</string>
+    <string name="app_name">Siaga Gempa Cianjur</string>
+
     <string name="Unit_Iklan">ca-app-pub-5301776565080135/7518618515</string>
     <string name="Unit_App_ID">ca-app-pub-5301776565080135~6894913937</string>
-    <string name="Hadist_Ibaadaat">Dalam hadis ini tertulis tentang ibadah sunnah yang pernah dilakukan oleh Rasulullah SAW.</string>
-    <string name="HadistImaniat">Hadis Imaniat adalah hadis yang berisikan tentang keimanan atau kepercayaan kepada Allah SWT.</string>
-    <string name="HadistMualamaat">Hadis ini mengajarkan tentang aturan dalam berkegiatan setiap harinya.</string>
-    <string name="HadistMuasyaraat">Hadis Muasyaraat yang dapat menjadi pedoman kita saat menjalani hidup.</string>
-    <string name="HadistAkhlaqiyaat">Hadis ini mengatur tentang akhlak atau bagaimana cara kita seharusnya berperilaku sehari-hari.</string>
+
+    <!-- Skala Gempa -->
+    <string name="Gempa_Skala_XII_MMI">Hancur sama sekali, Gelombang tampak pada permukaan tanah. Pemandangan menjadi gelap. Benda-benda terlempar ke udara.</string>
+    <string name="Gempa_Skala_XI_MMI">Bangunan-bangunan hanya sedikit yang tetap berdiri. Jembatan rusak, terjadi lembah. Pipa dalam tanah tidak dapat dipakai sama sekali, tanah terbelah, rel melengkung sekali.</string>
+    <string name="Gempa_Skala_X_MMI">Bangunan dari kayu yang kuat rusak,rangka rumah lepas dari pondamennya, tanah terbelah rel melengkung, tanah longsor di tiap-tiap sungai dan di tanah-tanah yang curam.</string>
+    <string name="Gempa_Skala_VIII_MMI">Kerusakan ringan pada bangunan dengan konstruksi yang kuat. Retak-retak pada bangunan degan konstruksi kurang baik, dinding dapat lepas dari rangka rumah, cerobong asap pabrik dan monumen-monumen roboh, air menjadi keruh.</string>
+    <string name="Gempa_Skala_VII_MMI">Tiap-tiap orang keluar rumah. Kerusakan ringan pada rumah-rumah dengan bangunan dan konstruksi yang baik. Sedangkan pada bangunan yang konstruksinya kurang baik terjadi retak-retak bahkan hancur, cerobong asap pecah. Terasa oleh orang yang naik kendaraan.</string>
+    <string name="Gempa_Skala_IX_MMI">Kerusakan pada bangunan yang kuat, rangka-rangka rumah menjadi tidak lurus, banyak retak. Rumah tampak agak berpindah dari pondamennya. Pipa-pipa dalam rumah putus.</string>
+    <string name="Gempa_Skala_VI_MMI">Getaran dirasakan oleh semua penduduk. Kebanyakan semua terkejut dan lari keluar, plester dinding jatuh dan cerobong asap pada pabrik rusak, kerusakan ringan.</string>
+    <string name="Gempa_Skala_V_MMI">Getaran dirasakan oleh hampir semua penduduk, orang banyak terbangun, gerabah pecah, barang-barang terpelanting, tiang-tiang dan barang besar tampak bergoyang, bandul lonceng dapat berhenti.</string>
+    <string name="Gempa_Skala_IV_MMI">Pada siang hari dirasakan oleh orang banyak dalam rumah, di luar oleh beberapa orang, gerabah pecah, jendela/pintu berderik dan dinding berbunyi.</string>
+    <string name="Gempa_Skala_III_MMI">Getaran dirasakan nyata dalam rumah. Terasa getaran seakan-akan ada truk berlalu.</string>
+    <string name="Gempa_Skala_II_MMI">Getaran dirasakan oleh beberapa orang, benda-benda ringan yang digantung bergoyang.</string>
+    <string name="Gempa_Skala_I_MMI">Getaran tidak dirasakan kecuali dalam keadaan luarbiasa oleh beberapa orang.</string>
+    <!-- Skala Gempa -->
+
     <string name="Tentang"><p>Mari Berdoa </p>adalah aplikasi alternatif panduan mengenai bacaan doa sehari - hari dan beberapa tambahan bacaan hadis\n\ndoa - doa dan hadis di aplikasi ini di susun sesuai dengan sunnah\n\naplikasi ini saya buat sebagai <i>reminder</i> khususnya bagi saya agar tidak lupa membaca doa dan tetap mengetahui tentang hafalan hadis\n\nsemoga dengan adanya aplikasi ini bisa memberi manfaat kebaikan agar tetap teringat membaca doa disetiap segala aktivitas.</string>
     <string name="PengertianHadis">Hadis secara istilah berarti segala perkataan (sabda), perbuatan, ketetapan dan persetujuan dari Nabi Muhammad SAW yang dijadikan landasan syariat Islam.</string>
     <string name="TermOfService">Terms of Service</string>
     <string name="Privacy_Policy">Privacy Policy</string>
-    <string name="hadis_akhlaqiyaat">Hadis Akhlaqiyaat</string>
-    <string name="hadis_muasyaraat">Hadis Muasyaraat</string>
-    <string name="hadis_muamalaat">Hadis Muamalaat</string>
-    <string name="hadis_ibaadaat">Hadis Ibaadaat</string>
-    <string name="hadis_imaniat">Hadis Imaniat</string>
+
+    <string name="Skala_XII_MMI">Skala XII MMI</string>
+    <string name="Skala_XI_MMI">Skala XI MMI</string>
+    <string name="Skala_X_MMI">Skala X MMI</string>
+    <string name="Skala_IX_MMI">Skala IX MMI</string>
+    <string name="Skala_VIII_MMI">Skala VIII MMI</string>
+    <string name="Skala_VII_MMI">Skala VII MMI</string>
+    <string name="Skala_VI_MMI">Skala VI MMI</string>
+    <string name="Skala_V_MMI">Skala V MMI</string>
+    <string name="Skala_IV_MMI">Skala IV MMI</string>
+    <string name="Skala_III_MMI">Skala III MMI</string>
+    <string name="Skala_II_MMI">Skala II MMI</string>
+    <string name="Skala_I_MMI">Skala I MMI</string>
+
     <string name="daftar_hadis">Daftar Hadis</string>
     <string name="doa_sehari_hari">Doa Sehari - hari</string>
-
 
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.getsucode.mariberdoa">
+    package="com.getsucode.siagagempacianjur">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,7 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MariBerdoa">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
 
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-5301776565080135~6894913937" />
@@ -30,34 +36,53 @@
             android:name=".ToolbarMenu.About"
             android:exported="false" />
         <activity
-            android:name=".Main.ListQuotesMuslim.DetailQuotesMuslim.DetailQuotesMuslim"
+            android:name=".Main.InfoBMKG.WebBMKG"
+            android:exported="false" />
+
+        <activity
+            android:name="com.getsucode.siagagempacianjur.Main.JenisGempa.DaftarSkala.Skala.Skala_I_activity"
             android:exported="false" />
         <activity
-            android:name=".Main.ListQuotesMuslim.DaftarQuotesMuslim"
+            android:name="com.getsucode.siagagempacianjur.Main.JenisGempa.DaftarSkala.Skala.Skala_II_activity"
             android:exported="false" />
         <activity
-            android:name=".Main.ListHadist.DaftarHadist.SubDaftarHadist.ListHadistAkhlaqiyaat"
+            android:name="com.getsucode.siagagempacianjur.Main.JenisGempa.DaftarSkala.Skala.Skala_III_activity"
             android:exported="false" />
         <activity
-            android:name=".Main.ListHadist.DaftarHadist.SubDaftarHadist.ListHadistMuasyaraat"
+            android:name="com.getsucode.siagagempacianjur.Main.JenisGempa.DaftarSkala.Skala.Skala_IV_activity"
             android:exported="false" />
         <activity
-            android:name=".Main.ListHadist.DaftarHadist.SubDaftarHadist.ListHadistMuamalaat"
+            android:name="com.getsucode.siagagempacianjur.Main.JenisGempa.DaftarSkala.Skala.Skala_V_activity"
             android:exported="false" />
         <activity
-            android:name=".Main.ListHadist.DaftarHadist.DaftarHadist"
+            android:name="com.getsucode.siagagempacianjur.Main.JenisGempa.DaftarSkala.Skala.Skala_VI_activity"
             android:exported="false" />
         <activity
-            android:name=".Main.ListHadist.DaftarHadist.SubDaftarHadist.ListHadistImaniat"
+            android:name="com.getsucode.siagagempacianjur.Main.JenisGempa.DaftarSkala.Skala.Skala_VII_activity"
             android:exported="false" />
         <activity
-            android:name=".Main.ListHadist.DaftarHadist.SubDaftarHadist.ListHadistIbaadaat"
+            android:name="com.getsucode.siagagempacianjur.Main.JenisGempa.DaftarSkala.Skala.Skala_VIII_activity"
             android:exported="false" />
         <activity
-            android:name=".Main.ListDoa.DetailDoa.DetailDoa"
+            android:name="com.getsucode.siagagempacianjur.Main.JenisGempa.DaftarSkala.Skala.Skala_IX_activity"
             android:exported="false" />
         <activity
-            android:name=".Main.ListDoa.ListDoa"
+            android:name="com.getsucode.siagagempacianjur.Main.JenisGempa.DaftarSkala.Skala.Skala_X_activity"
+            android:exported="false" />
+        <activity
+            android:name="com.getsucode.siagagempacianjur.Main.JenisGempa.DaftarSkala.Skala.Skala_XI_activity"
+            android:exported="false" />
+        <activity
+            android:name="com.getsucode.siagagempacianjur.Main.JenisGempa.DaftarSkala.Skala.Skala_XII_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Main.JenisGempa.DaftarSkala.DaftarSkalaGempa"
+            android:exported="false" />
+        <activity
+            android:name=".Main.TentangGempa.DetailTentangGempa.DetailTipsGempa"
+            android:exported="false" />
+        <activity
+            android:name=".Main.TentangGempa.TentangGempa"
             android:exported="false" />
         <activity
             android:name=".Main.EkitApp"

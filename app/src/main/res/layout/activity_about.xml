@@ -23,40 +23,34 @@
 
                 <ImageView
                     android:id="@+id/iconabout"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/iconabout"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
-
-                <ImageView
-                    android:id="@+id/titleabout"
                     android:layout_width="150dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/titleabout"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_height="150dp"
+                    android:paddingBottom="20dp"
+                    android:src="@drawable/gempalogo1"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/iconabout"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/version"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:text="V 0.0.1 Beta"
                     android:gravity="center_horizontal"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:text="V.1 Beta"
+                    android:textColor="#737272"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/titleabout"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/iconabout" />
 
                 <TextView
                     android:layout_width="180dp"
                     android:layout_height="50dp"
-                    android:text="Powered By GETSU CODE"
                     android:gravity="center_horizontal"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:text="Powered By GETSU CODE"
+                    android:textColor="#737272"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/version"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/version" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -65,9 +59,9 @@
     </FrameLayout>
 
     <LinearLayout
-        android:layout_below="@id/about"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/about"
         android:layout_marginBottom="20dp"
         android:orientation="vertical">
 
@@ -79,16 +73,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="250dp"
-                android:text="@string/Privacy_Policy"/>
+                android:text="@string/Privacy_Policy"
+                android:textColor="#737272"
+                android:textSize="15dp" />
 
             <ImageView
                 android:layout_width="18dp"
                 android:layout_height="18dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
 
         </LinearLayout>
 
@@ -101,16 +96,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="230dp"
-                android:text="@string/TermOfService"/>
+                android:text="@string/TermOfService"
+                android:textColor="#737272"
+                android:textSize="15dp" />
 
             <ImageView
                 android:layout_width="18dp"
                 android:layout_height="18dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
 
         </LinearLayout>
 

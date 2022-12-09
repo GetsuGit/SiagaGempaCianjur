@@ -1,13 +1,14 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android-extensions' // kotlin extensions
 }
 
 android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.getsucode.mariberdoa"
+        applicationId "com.getsucode.siagagempacianjur"
         minSdk 24
         targetSdk 32
         versionCode 1

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00AF7C"
-    tools:context=".Main.Splash">
+    android:background="#ffff"
+    tools:context="com.getsucode.siagagempacianjur.Main.Splash">
 
     <ImageView
         android:id="@+id/imageView6"
@@ -13,6 +13,6 @@
         android:layout_height="250dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="250dp"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/gempalogo1" />
 
 </RelativeLayout>
