@@ -19,8 +19,6 @@
     <string name="Gempa_Skala_I_MMI">Getaran tidak dirasakan kecuali dalam keadaan luarbiasa oleh beberapa orang.</string>
     <!-- Skala Gempa -->
 
-    <string name="Tentang"><p>Mari Berdoa </p>adalah aplikasi alternatif panduan mengenai bacaan doa sehari - hari dan beberapa tambahan bacaan hadis\n\ndoa - doa dan hadis di aplikasi ini di susun sesuai dengan sunnah\n\naplikasi ini saya buat sebagai <i>reminder</i> khususnya bagi saya agar tidak lupa membaca doa dan tetap mengetahui tentang hafalan hadis\n\nsemoga dengan adanya aplikasi ini bisa memberi manfaat kebaikan agar tetap teringat membaca doa disetiap segala aktivitas.</string>
-    <string name="PengertianHadis">Hadis secara istilah berarti segala perkataan (sabda), perbuatan, ketetapan dan persetujuan dari Nabi Muhammad SAW yang dijadikan landasan syariat Islam.</string>
     <string name="TermOfService">Terms of Service</string>
     <string name="Privacy_Policy">Privacy Policy</string>
 
@@ -36,8 +34,5 @@
     <string name="Skala_III_MMI">Skala III MMI</string>
     <string name="Skala_II_MMI">Skala II MMI</string>
     <string name="Skala_I_MMI">Skala I MMI</string>
-
-    <string name="daftar_hadis">Daftar Hadis</string>
-    <string name="doa_sehari_hari">Doa Sehari - hari</string>
 
 </resources>
